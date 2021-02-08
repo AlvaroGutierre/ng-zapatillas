@@ -1,0 +1,28 @@
+#txt{
+    float: center;
+    margin-left: 10%;
+}
+.jumbotron {
+    /* opacity: 0.2; */
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255,255,255,.8)), url("https://img.freepik.com/vector-gratis/conjunto-zapatos-zapatillas-deportivas_74855-313.jpg?size=626&ext=jpg");
+}
+.bg-zapatilla h5 {
+    opacity: 1;
+}
+
+
+
+.jumbotron .img{
+    margin-bottom: 0px;
+    opacity: 0.2;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    background: url("https://img.freepik.com/vector-gratis/conjunto-zapatos-zapatillas-deportivas_74855-313.jpg?size=626&ext=jpg") top center no-repeat;
+}

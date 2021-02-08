@@ -1,0 +1,11 @@
+<div class="jumbotron jumbotron-fluid ">
+  <!-- <div class="bg-zapatilla"></div> -->
+  <div class="container">
+    <h5 id="txt" class="display-4">AlvaroZapatillas</h5>
+  </div>
+</div>
+<div class="row">
+  <div *ngFor="let zapatilla of zapatillas" class="col-12 col-md-6  col-lg-4">
+    <app-zapatilla-item [zapatilla]="zapatilla"></app-zapatilla-item>
+  </div>
+</div>

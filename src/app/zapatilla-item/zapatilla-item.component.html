@@ -1,0 +1,11 @@
+
+<div class="card">
+  <div class="card-header">
+    <img src="{{zapatilla.image}}" class="figure-img img-fluid rounded">
+    <h5><a [routerLink]="['/zapatillas', zapatilla.id]">{{zapatilla.title}}</a></h5>
+    <span>{{zapatilla.price | currency}}</span>
+  </div>
+  <div class="card-body">
+    <p>{{zapatilla.description}}</p>
+  </div>
+</div>

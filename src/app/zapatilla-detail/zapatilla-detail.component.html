@@ -1,0 +1,28 @@
+<figure class="figure">
+  <figcaption class="figure-caption">
+    <img id="imagen" src={{zapatilla.image}} class="figure-img img-fluid rounded" width="500">
+    <br>
+    <h4>Title: {{zapatilla.title}}</h4>
+    <br>
+    <br>
+    <h5>Price: {{zapatilla.price | currency}}</h5>
+    <br>
+    <br>
+    <h5> Description: {{zapatilla.description}}</h5>
+  </figcaption>
+</figure>
+
+<div class="row mt-4">
+  <div class="col-md-4">
+    <button class="btn btn-outline-secondary mr-3"
+            style="width:80px"
+            (click)="onBack()">
+      <i class="fa fa-chevron-left"></i> Back
+    </button>
+    <button class="btn btn-outline-primary"
+            style="width:80px"
+            (click)="goEdit()">
+      Edit
+    </button>
+  </div>
+</div>

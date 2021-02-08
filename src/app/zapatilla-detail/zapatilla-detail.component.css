@@ -1,0 +1,15 @@
+figure {
+  margin-top: 1em;
+}
+
+h4 {
+  color: blue;
+}
+
+h5 {
+  color: brown;
+}
+#imagen{
+  float: left;
+  margin-right: 25px;
+}
