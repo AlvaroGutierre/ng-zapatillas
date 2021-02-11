@@ -14,7 +14,6 @@ import { ZapatillaService } from './shared/zapatilla.service';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { AppRoutingModule } from './app-routing.module';
 import {ZapatillaEditComponent } from './zapatilla-edit/zapatilla-edit.component';
-import { ZapatillaData } from './shared/zapatilla-data';
 import { HttpClientModule } from '@angular/common/http';
 import { ZapatillaNewComponent } from './zapatilla-new/zapatilla-new.component';
 
@@ -37,7 +36,7 @@ import { ZapatillaNewComponent } from './zapatilla-new/zapatilla-new.component';
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
-    InMemoryWebApiModule.forRoot(ZapatillaData)
+    //InMemoryWebApiModule.forRoot(ZapatillaData)
   ],
   providers: [ZapatillaService],
   bootstrap: [AppComponent]

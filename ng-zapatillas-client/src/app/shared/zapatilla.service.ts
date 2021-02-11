@@ -10,7 +10,7 @@ import { Zapatilla } from './zapatilla';
   providedIn: 'root'
 })
 export class ZapatillaService {
-  private zapatillasUrl = 'api/zapatillas';
+  private zapatillasUrl = 'http://localhost:8000/zapatillas';
 
   constructor(private http: HttpClient) { }
 
